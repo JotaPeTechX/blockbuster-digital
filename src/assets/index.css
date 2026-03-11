@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bb-blue: #003b73;
+  --bb-light-blue: #0057a8;
+  --bb-yellow: #ffd100;
+  --bb-bg: #f8fafc;
+  --bb-text: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  color: var(--bb-text);
+}
